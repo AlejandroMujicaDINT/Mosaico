@@ -5,30 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Mosaico"
         mc:Ignorable="d"
-        Title="Mosaico" MinHeight="400" MinWidth="400" Height="680" Width="680" Icon="32.ico">
+        Title="Mosaico" MinHeight="450" MinWidth="450" Height="680" Width="680" Icon="32.ico">
     <DockPanel>
-        <TextBlock DockPanel.Dock="Top" Padding="40"
+        <TextBlock DockPanel.Dock="Top" Height="100"
                    Background="Purple"/>
         <TextBlock DockPanel.Dock="Left"
-                   Padding="50"
+                   Width="100"
                    Background="Purple" />
         <TextBlock DockPanel.Dock="Bottom"
-                   Padding="40"
+                   Height="100"
                    Background="Green" />
         <TextBlock DockPanel.Dock="Right"
-                   Padding="50"
+                   Width="100"
                    Background="Green" />
         <TextBlock DockPanel.Dock="Left"
-                   Padding="50"
+                   Width="100"
                    Background="OrangeRed" />
         <TextBlock DockPanel.Dock="Bottom"
                    Background="OrangeRed"
-                   Padding="40" />
+                   Height="100" />
         <TextBlock DockPanel.Dock="Top"
-                   Padding="40"
+                   Height="100"
                    Background="HotPink" />
         <TextBlock DockPanel.Dock="Right"
-                   Padding="50"
+                   Width="100"
                    Background="HotPink" />
         <TextBlock Background="Black" />
     </DockPanel>
